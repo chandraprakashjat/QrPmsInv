@@ -1,0 +1,167 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+   <dimen name="s_h_pad">5dp</dimen>
+
+    <dimen name="l_et">20sp</dimen>
+    <dimen name="l_h">30sp</dimen>
+    <dimen name="l_b">18sp</dimen>
+    <dimen name="l_h_pad">60dp</dimen>
+    <dimen name="l_f_img">30dp</dimen>
+    <dimen name="l_f_pad">30dp</dimen>
+    <dimen name="l_iu">30dp</dimen>
+    <dimen name="l_iu_h">37dp</dimen>
+    <dimen name="l_ip">30dp</dimen>
+    <dimen name="l_ip_h">37dp</dimen>
+    <dimen name="l_txt">250dp</dimen>
+
+    <dimen name="url_b">18sp</dimen>
+    <dimen name="url_et">18sp</dimen>
+
+    <dimen name="h_img">18sp</dimen>
+    <dimen name="h_font">18sp</dimen>
+    <dimen name="h_wt">75dp</dimen>
+    <dimen name="h_ht">40dp</dimen>
+    <dimen name="h_arrow">60dp</dimen>
+    <dimen name="h_v_ht">2dp</dimen>
+    <dimen name="h_v_btm">15dp</dimen>
+    <dimen name="h_v_s">10dp</dimen>
+
+
+
+    <dimen name="i_img">18sp</dimen>
+    <dimen name="i_h">18sp</dimen>
+    <dimen name="i_font">18sp</dimen>
+    <dimen name="i_tab">18sp</dimen>
+
+
+    <dimen name="m_h">18sp</dimen>
+    <dimen name="m_scan">18sp</dimen>
+    <dimen name="m_scan_icon">18sp</dimen>
+    <dimen name="m_eq">18sp</dimen>
+    <dimen name="m_b_next">18sp</dimen>
+    <dimen name="m_b_prev">18sp</dimen>
+    <dimen name="m_qr_text">18sp</dimen>
+    <dimen name="m_qr_img_h">200sp</dimen>
+    <dimen name="m_qr_val_mleft">30dp</dimen>
+    <dimen name="m_qr_val_mtop">45dp</dimen>
+    <dimen name="m_qr_val_pad">10dp</dimen>
+    <dimen name="m_qr_val_txt">19dp</dimen>
+    <dimen name="m_textall">18sp</dimen>
+    <dimen name="m_save">18sp</dimen>
+
+  <dimen name="m_po_val_pad">5dp</dimen>
+
+    <dimen name="c_wel">18sp</dimen>
+    <dimen name="c_loggon">18sp</dimen>
+    <dimen name="c_logout">18sp</dimen>
+    <dimen name="c_img">18sp</dimen>
+    <dimen name="c_imgtext">18dp</dimen>
+    <dimen name="c_menu">20dp</dimen>
+    <dimen name="c_menu_top">10dp</dimen>
+    <dimen name="c_menu_fl_mr">30dp</dimen>
+    <dimen name="c_menu_lmt">10dp</dimen>
+    <dimen name="c_menu_plef">5dp</dimen>
+    <dimen name="c_menu_arr_Rl_pb">15dp</dimen>
+    <dimen name="c_imenu_fl">70dp</dimen>
+    <dimen name="c_imenu_lmt">10dp</dimen>
+    <dimen name="c_imenu_plef">5dp</dimen>
+
+
+
+
+
+
+    <dimen name="activity_horizontal_margin_tab">40dp</dimen>
+    <dimen name="activity_vertical_margin_tab">40dp</dimen>
+
+    <dimen name="s_h_pad_tab">30dp</dimen>
+
+    <dimen name="l_et_tab">45sp</dimen>
+    <dimen name="l_h_tab">55sp</dimen>
+    <dimen name="l_b_tab">43sp</dimen>
+    <dimen name="l_h_pad_tab">85dp</dimen>
+    <dimen name="l_f_img_tab">55dp</dimen>
+    <dimen name="l_f_pad_tab">55dp</dimen>
+    <dimen name="l_iu_tab">55dp</dimen>
+    <dimen name="l_iu_h_tab">62dp</dimen>
+    <dimen name="l_ip_tab">55dp</dimen>
+    <dimen name="l_ip_h_tab">62dp</dimen>
+    <dimen name="l_txt_tab">275dp</dimen>
+
+    <dimen name="url_b_tab">40sp</dimen>
+    <dimen name="url_et_tab">40sp</dimen>
+
+
+    <dimen name="h_img_tab">40sp</dimen>
+    <dimen name="h_font_tab">40sp</dimen>
+    <dimen name="h_wt_tab">100dp</dimen>
+    <dimen name="h_ht_tab">65dp</dimen>
+    <dimen name="h_arrow_tab">85dp</dimen>
+    <dimen name="h_v_ht_tab">27dp</dimen>
+    <dimen name="h_v_btm_tab">40dp</dimen>
+    <dimen name="h_v_s_tab">35dp</dimen>
+
+
+    <dimen name="i_img_tab">40sp</dimen>
+    <dimen name="i_h_tab">40sp</dimen>
+    <dimen name="i_font_tab">40sp</dimen>
+    <dimen name="i_tab_tab">40sp</dimen>
+
+
+    <dimen name="m_h_tab">40sp</dimen>
+    <dimen name="m_scan_tab">40sp</dimen>
+    <dimen name="m_scan_icon_tab">40sp</dimen>
+    <dimen name="m_eq_tab">40sp</dimen>
+    <dimen name="m_b_next_tab">40sp</dimen>
+    <dimen name="m_b_prev_tab">40sp</dimen>
+    <dimen name="m_qr_text_tab">40sp</dimen>
+    <dimen name="m_qr_img_h_tab">225sp</dimen>
+    <dimen name="m_qr_val_mleft_tab">55dp</dimen>
+    <dimen name="m_qr_val_mtop_tab">90dp</dimen>
+    <dimen name="m_qr_val_pad_tab">35dp</dimen>
+    <dimen name="m_qr_val_txt_tab">22dp</dimen>
+    <dimen name="m_textall_tab">40sp</dimen>
+    <dimen name="m_save_tab">40sp</dimen>
+
+    <dimen name="c_wel_tab">40sp</dimen>
+    <dimen name="c_loggon_tab">40sp</dimen>
+    <dimen name="c_logout_tab">40sp</dimen>
+    <dimen name="c_img_tab">40sp</dimen>
+    <dimen name="c_imgtext_tab">40dp</dimen>
+    <dimen name="c_menu_tab">45dp</dimen>
+    <dimen name="c_menu_top_tab">35dp</dimen>
+    <dimen name="c_menu_fl_mr_tab">55dp</dimen>
+    <dimen name="c_menu_lmt_tab">35dp</dimen>
+    <dimen name="c_menu_plef_tab">30dp</dimen>
+    <dimen name="c_menu_arr_Rl_pb_tab">40dp</dimen>
+    <dimen name="c_imenu_fl_tab">95dp</dimen>
+    <dimen name="c_imenu_lmt_tab">35dp</dimen>
+    <dimen name="c_imenu_plef_tab">30dp</dimen>
+
+    <dimen name="text_size_completion">18dp</dimen>
+   <dimen name="completion_mar_top">35dp</dimen>
+    <dimen name="completion_mar_top_two">40dp</dimen>
+   <dimen name="list_header_text">22dp</dimen>
+   <dimen name="head_list_mar">4dp</dimen>
+   <dimen name="com_data_text">5dp</dimen>
+
+    <dimen name="po_qty_text">2sp</dimen>
+
+
+
+
+ <!--<dimen name="h_wt_tab">100dp</dimen>-->
+   <!--<dimen name="h_ht_tab">65dp</dimen>-->
+   <!--<dimen name="m_qr_val_mleft_tab">55dp</dimen>-->
+   <!--<dimen name="c_menu_tab">45dp</dimen>-->
+   <!--<dimen name="c_menu_top_tab">35dp</dimen>-->
+   <!--<dimen name="m_qr_val_mtop_tab">100dp</dimen>-->
+   <!--<dimen name="m_qr_val_pad_tab">35dp</dimen>-->
+   <!--<dimen name="m_qr_val_txt_tab">22dp</dimen>-->
+
+
+</resources>

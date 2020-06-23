@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled"
+    android:id="@+id/relative"
+    tools:context="com.example.arvindhan.parameter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/linear"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="PARAMETER"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textColor="@color/lightred"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="APPLICATION"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/qr"
+        android:layout_below="@id/linear"
+        android:id="@+id/qr"
+        android:layout_centerInParent="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qr"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qr value will be displayed here"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:id="@+id/qrvalue"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qrvalue"
+                android:layout_marginTop="35dp"
+                android:text="Completion Date :"
+                android:id="@+id/com_date"
+                android:visibility="gone"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DD:MM:YYY"
+                android:editable="false"
+                android:layout_marginLeft="200dp"
+                android:layout_below="@id/qrvalue"
+                android:visibility="gone"
+                android:id="@+id/date"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:text="Observed Value :"
+                android:textColor="@color/black"
+                android:id="@+id/com_status"
+                android:textSize="15dp"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:layout_below="@id/date"
+                android:inputType="numberDecimal"
+                android:visibility="gone"
+                android:layout_marginLeft="200dp"
+                android:hint="0.00"
+                android:background="@drawable/background"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:id="@+id/spinner1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_status"
+                android:text="Measurement Point :"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:id="@+id/com_by"
+                android:textSize="15dp"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:layout_below="@id/com_status"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/background"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:visibility="gone"
+                android:inputType="numberDecimal"
+                android:hint="0.00"
+                android:layout_marginLeft="200dp"
+                android:id="@+id/spinner2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_by"
+                android:visibility="gone"
+                android:hint="Remarks"
+                android:id="@+id/remarks"
+                android:textColorHint="@color/black"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/store"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/remarks"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/vote"
+                android:textColor="@color/green"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/currentdate"
+                android:layout_below="@id/store"
+                android:visibility="gone"
+                android:text="DD:MM:YYYY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uniqueId"
+                android:layout_below="@id/currentdate"
+                android:visibility="gone"
+                android:text="Unique Id"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/entity"
+                android:layout_below="@id/uniqueId"
+                android:visibility="gone"
+                android:text="Entity Code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/num"
+                android:layout_below="@id/entity"
+                android:visibility="gone"
+                android:text="Entity Code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/equip_code"
+                android:layout_below="@id/num"
+                android:text="Equipment Code"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+        </ScrollView>
+
+
+
+
+
+</RelativeLayout>

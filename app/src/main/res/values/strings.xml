@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">ABA APP</string>
+
+	    <string name="logo_name">ABA APP</string>
+
+       <string name="see_lh">Welcome</string>
+    <string name="ab_ch_url">Change Url</string>
+    <string name="see_lb">Let Me In...</string>
+
+
+    <string name="i_head">Select The Inventory Type</string>
+    <string name="i_oil">Oil</string>
+    <string name="i_part">Part</string>
+    <string name="i_store">Store</string>
+
+    <string name="i_con">Consumption</string>
+    <string name="i_rec">Receipt</string>
+    <string name="i_con_rob">ROB</string>
+    <string name="i_con_date">Date</string>
+    <string name="i_rec_uc">Unit Cost</string>
+    <string name="i_rec_rob">ROB</string>
+    <string name="i_rec_date">Date</string>
+
+    <string name="m_h">Maintenance Done Entry</string>
+    <string name="m_scan">Click To Scan</string>
+    <string name="m_btn_n">Next</string>
+    <string name="m_btn_p">Prev</string>
+
+    <string name="m_comp_date">Completion Date</string>
+    <string name="m_comp_stat">Job Completion Status</string>
+    <string name="m_comp_jb">Job Completion By</string>
+
+    <string name="p_h">Parameter Application</string>
+    <string name="p_btn_n">Next</string>
+    <string name="p_btn_p">Prev</string>
+    <string name="p_mr">Material Reciept</string>
+
+    <string name="p_comp_date">Completion Date</string>
+    <string name="p_comp_stat">Job Completion Status</string>
+    <string name="p_comp_jb">Job Completion By</string>
+
+    <string name="r_h">Run Hour Application</string>
+    <string name="r_btn_n">Next</string>
+    <string name="r_btn_p">Prev</string>
+
+    <string name="r_comp_date">Completion Date</string>
+    <string name="r_comp_stat">Job Completion Status</string>
+    <string name="r_comp_jb">Job Completion By</string>
+
+    <string name="c_s_pms">PMS</string>
+    <string name="c_s_inv">Inventory</string>
+    <string name="c_s_para">Parameter</string>
+    <string name="c_s_cali">Finance</string>
+    <string name="c_s_crew">Purchase</string>
+    <string name="c_s_train">Repair</string>
+    <string name="c_s_safety">Safety</string>
+    <string name="c_ab_logout">Logout</string>
+
+    <string name="c_s_pms1">M.Done</string>
+    <string name="c_s_inv1">Parameter</string>
+    <string name="c_s_para1">RunHour</string>
+    <string name="c_s_cali1">Calibration</string>
+    <string name="c_s_crew1">Safety Alarm</string>
+    <string name="c_s_train1">CHECK</string>
+    <string name="c_ab_logout1">CHECK</string>
+
+    <string name="p_s_mr">Material Recipet</string>
+
+    <string name="mainduelist">Maintenance Due list</string>
+    <string name="mainoverduelist">Maintenance OverDue list</string>
+    <string name="paraduelist">Parameter List</string>
+    <string name="caliduelist">Calibration Due List</string>
+    <string name="calioverduelist">Calibration OverDue List</string>
+    <string name="safetyduelist">Safety Due List</string>
+    <string name="safetyoverduelist">Safety OverDue List</string>
+    <string name="runhourlist">Runhour List</string>
+
+    <string name="mainhead">Maintenance Name</string>
+    <string name="parahead">Parameter Name</string>
+    <string name="calihead">Calibration Name</string>
+    <string name="safehead">Safety Alarm Name</string>
+    <string name="compid">Equipment Code</string>
+    <string name="mainid">Maintenance Code</string>
+
+    <string name="c_wel">Welcome</string>
+    <string name="c_log">Logged On</string>
+
+</resources>

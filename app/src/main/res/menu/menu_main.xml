@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.com.aba.maraine.myapplication.Home">
+    <item
+        android:id="@+id/churl"
+        android:orderInCategory="100"
+        android:title="@string/ab_ch_url"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/c_ab_logout"
+        app:showAsAction="never"/>
+
+
+</menu>

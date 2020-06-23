@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl1"
+            android:layout_gravity="center_vertical">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/check"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl2"
+            >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rl1"
+                android:id="@+id/tablerow_maintenance"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calibration Name"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/main_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calibration Name Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/scan_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rl1"
+                android:layout_below="@id/tablerow_maintenance"
+                android:id="@+id/tablerow_frequency"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frequency"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/freq_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frequency Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/freq_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rl1"
+                android:layout_below="@id/tablerow_frequency"
+                android:id="@+id/tablerow_lastdone"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last Done"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/lastdone_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last Done Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/lastdone_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rel1"
+                android:layout_below="@id/tablerow_lastdone"
+                android:id="@+id/tablerow_nextdue"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next Due"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/nextdue_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next Due Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/nextdue_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rl1"
+                android:layout_below="@id/tablerow_nextdue"
+                android:id="@+id/tablerow_maintenancecode"
+                android:visibility="gone"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maintenancecode"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/maintenancecode_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="maintenancecode Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/maintenancecode_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/checkbox"
+                android:layout_below="@id/tablerow_maintenancecode"
+                android:id="@+id/tablerow_componentcode"
+                android:visibility="gone"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Componentcode"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/componentcode_text"
+                    android:layout_weight="0.32"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_weight="0.49"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Componentcode Value"
+                    android:paddingLeft="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/componentcode_custom"
+                    android:layout_weight="0.2"/>
+
+            </TableRow>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

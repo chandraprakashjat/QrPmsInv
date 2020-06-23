@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    tools:context="com.example.arvindhan.parameter.AddAttachment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Attachment"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/add_attachment"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_attachment"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/backend"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relative_add">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_attachment"
+            android:layout_marginTop="15dp"
+            android:text="Enter The Date :"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/com_date_add"
+            android:visibility="visible"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DD:MM:YYY"
+            android:textSize="15dp"
+            android:editable="false"
+            android:layout_marginLeft="180dp"
+            android:layout_below="@id/add_attachment"
+            android:visibility="visible"
+            android:id="@+id/date_add"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The Filename (Eg : Image)"
+            android:layout_below="@id/com_date_add"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/filename_add"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_add"
+        android:layout_marginTop="3dp"
+        android:background="@color/app_blue"
+        android:text="Click Here To Select Image "
+        android:textColor="@color/white"
+        android:id="@+id/select_image"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/select_image"
+        android:id="@+id/imageadd"
+        android:layout_above="@+id/save"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/save"
+        android:layout_centerInParent="true"
+        android:background="@drawable/save"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
