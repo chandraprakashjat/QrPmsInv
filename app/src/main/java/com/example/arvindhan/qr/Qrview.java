@@ -1,7 +1,9 @@
 package com.example.arvindhan.qr;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.arvindhan.parameter.R;
 

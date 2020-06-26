@@ -2,7 +2,6 @@ package com.example.arvindhan.qr;
 
 import android.app.Activity;
 import android.graphics.Color;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
